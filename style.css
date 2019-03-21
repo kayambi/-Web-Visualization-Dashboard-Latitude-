@@ -1,0 +1,89 @@
+/*
+First External css Stylesheet 
+*/
+/* styling for HTML elements */
+  *
+  {
+      margin: 0; 
+      padding : 0;
+
+
+  }
+
+header {
+
+    background:green;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 100%;
+    color:black;
+    text-align :right;
+    text-decoration-line: line-through
+    background black 
+  }
+
+.main-nav
+
+{
+float:right
+list-style none;
+margin-top : 40 px ;
+}
+
+.main-nav li 
+{
+    display: inline-block;
+
+}
+.main-nav li a 
+
+{
+    color:white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size : 15px;
+
+}  
+
+
+h1 {
+    padding:30px 0;
+    margin:0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color:darkcyan;
+    text-align :left;
+    background-color:whitesmoke
+
+}
+
+h3
+{
+    padding:30px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color:darkcyan;
+    text-align:left;
+    font-size: 24px; 
+
+}
+
+h {
+
+    padding:30px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color:darkcyan;
+    text-align:left;
+    font-size: 24px; 
+    background-color:whitesmoke
+
+}
+
+
+

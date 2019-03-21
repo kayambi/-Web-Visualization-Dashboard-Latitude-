@@ -1,0 +1,101 @@
+/* Body{
+    font-family: Arial, Helvetica, sans-serif
+    font: size 15px;
+    line-height:1.5;
+    padding:0;
+    margin:0; 
+    background: #ffffff;   
+} */
+
+/* Global can be anywhere */
+
+.containe{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+/* header  */
+/* Header */
+
+header{
+    min-height:600px ;
+    background: gray;
+    color: #ffffff;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: #e8e88e 3px solid;
+
+}
+header a {
+
+    /* min-height:600px ; */
+    color:#ffffff;
+    text-decoration: #ffffff;
+    text-transfom: uppercase;
+    font: size 15px;
+    
+}
+
+header ul{
+    margin:0;
+    padding:0;
+    
+}
+
+header li {
+    float:left;
+    display:inline;
+    padding : 0 20px 0 20px;
+
+}
+header #branding{
+    float: left;
+
+}
+
+header #branding h1{
+    margin:0;
+
+}
+header nav{
+    float:right;
+    margin-top:10;
+
+}
+header.highlight, header.current a {
+    color:#e8e88e;
+    font-weight:bold;
+
+}
+
+/* /* Show case * for Visualazation part  */
+
+showcase {
+    min-height:400px ;
+    /* background: url('../lat1.jpg') no-repeat; */
+}
+
+/* Sidebar  */
+
+aside #sidebar{
+    float:right;
+    width: 40%;
+    margin-top:10px;
+
+}
+
+/* main-col */
+
+article #main-col {
+    float:right; 
+    width: 60%;
+}
+
+.footer
+{
+    padding:20px;
+    margin:20px;
+    color:#ffffff
+    background-color:forestgreen
+    text-align :center;
+}
